@@ -6,7 +6,6 @@
 .row-content{
     margin: 0px auto;
     padding: 0px auto;
-    border: 2px ridge;
     min-height: 300px;
 }
 
@@ -35,5 +34,5 @@ body{
 }
 
 .navbar-dark{
-    background-color: rgb(221, 90, 221);
+    background-color: rgb(26, 142, 250);
 }
