@@ -1,3 +1,6 @@
+*{
+    scroll-behavior: smooth;
+}
 .row-header{
     margin: 0px auto;
     padding: 0px auto;
@@ -35,4 +38,10 @@ body{
 
 .navbar-dark{
     background-color: rgb(26, 142, 250);
+}
+
+.text-btn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
