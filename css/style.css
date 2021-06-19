@@ -52,3 +52,9 @@ body{
     border-bottom: 1px solid #ddd;
     padding: 10px;
 }
+
+.modal-dialog{
+    background-color: white;
+    border-radius: 5px;
+    /* color: white; */
+}
