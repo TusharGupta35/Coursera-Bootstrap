@@ -11,6 +11,22 @@ $carousel-item-height: 300px;
 	padding: $pad-up-dn $pad-left-right;
 }
 
+.modal {
+    .modal-body {
+        background-color: #d1c5e8;
+    }
+    .modal-header {
+        background-color: #5133a5;
+        color: floralwhite;
+        button {
+            color: floralwhite;
+        }
+    }
+    .modal-footer {
+        background-color: #d1c5e8;
+    }
+}
+
 .row-header{
     @include zero-margin(0px,0px);
 }
@@ -30,6 +46,10 @@ $carousel-item-height: 300px;
     @include zero-margin(70px,30px);
     background: $background-light ;
     color:floralwhite;
+    button a{
+        text-decoration: none;
+        color: white;
+    }
 }
 
 address{
